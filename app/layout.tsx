@@ -7,8 +7,8 @@ import { cn } from '@/lib/utils'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SunnyShiba Documentation',
-  description: 'The Cheerful Shiba Inu Coin with a Bright and Sunny Future',
+  title: 'Lilitera Foundation',
+  description: 'The Cheerful Lilitera Coin with a Bright and Sunny Future',
 }
 
 export default function RootLayout({

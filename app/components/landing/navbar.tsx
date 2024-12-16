@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Menu, X, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./theme-toggle";
+import Image from "next/image";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Wallet className="h-8 w-8 text-primary" />
+              <Image src="/images/logo-zoid.png" alt="" width={24} height={24} />
               <span className="font-bold text-xl">Lilitera Foundation</span>
             </Link>
           </div>

@@ -23,7 +23,7 @@ export function CTA() {
           <div className="flex-1 relative items-end justify-end">
             <div className="relative h-48 md:h-64 ">
               <Image
-                src="/images/promo-image.png"
+                src="/images/coin-1.png"
                 alt="Cryptocurrency coins"
                 layout="fill"
                 objectFit="contain"

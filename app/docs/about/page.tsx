@@ -22,7 +22,7 @@ export default function AboutPage() {
               </div>
               <div className="relative aspect-video overflow-hidden rounded-lg">
                 <Image 
-                  src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=800&q=80"
+                  src="/images/coin-1.png"
                   alt="Shiba Inu dog looking happy"
                   fill
                   className="object-cover"
