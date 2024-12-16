@@ -3,10 +3,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Gamepad2, Palette, ShoppingBag, Share2 } from "lucide-react"
 import { FeatureCard } from "@/components/feature-card"
 import Image from "next/image"
+import { MobileSidebar } from "@/components/sidebar-nav"
 
 export default function ShibaVersePage() {
   return (
     <div className="space-y-8">
+      <MobileSidebar />
       <PageHeader 
         title="ShibaVerse" 
         description="Explore the immersive metaverse world of SunnyShiba"

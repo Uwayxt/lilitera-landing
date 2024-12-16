@@ -2,10 +2,12 @@ import { PageHeader } from "@/components/page-header"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Gamepad2, Globe, Target } from "lucide-react"
 import { FeatureCard } from "@/components/feature-card"
+import { MobileSidebar } from "@/components/sidebar-nav"
 
 export default function Phase3Page() {
   return (
     <div className="space-y-8">
+      <MobileSidebar />
       <PageHeader 
         title="Phase 3: ShibaVerse Development" 
         description="Creating an immersive metaverse experience for the SUNSHIBA community"
@@ -69,7 +71,7 @@ export default function Phase3Page() {
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">
-            Phase 3 represents the culmination of our initial roadmap, but it's just the beginning of SunnyShiba's journey. Our vision extends beyond these milestones as we continue to innovate and expand the ecosystem based on community feedback and emerging technologies in the crypto space.
+            Phase 3 represents the culmination of our initial roadmap, but it&apos;s just the beginning of SunnyShiba&apos;s journey. Our vision extends beyond these milestones as we continue to innovate and expand the ecosystem based on community feedback and emerging technologies in the crypto space.
           </p>
         </CardContent>
       </Card>

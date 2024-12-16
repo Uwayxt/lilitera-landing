@@ -1,6 +1,9 @@
+import { MobileSidebar } from "@/components/sidebar-nav";
+
 export default function DocsPage() {
   return (
     <div className="space-y-6 ">
+      <MobileSidebar />
       <div>
         <h1 className="scroll-m-20 text-4xl font-bold tracking-tight">Introduction</h1>
         <p className="leading-7 [&:not(:first-child)]:mt-6">

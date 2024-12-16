@@ -1,10 +1,12 @@
 import { PageHeader } from "@/components/page-header"
+import { MobileSidebar } from "@/components/sidebar-nav"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Timer, Rocket } from "lucide-react"
 
 export default function Phase2Page() {
   return (
     <div className="space-y-8">
+      <MobileSidebar />
       <PageHeader 
         title="Phase 2: Utility Expansion" 
         description="Building the core features of the SunnyShiba ecosystem"

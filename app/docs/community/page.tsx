@@ -2,10 +2,12 @@ import { PageHeader } from "@/components/page-header"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Users, Heart, Trophy, MessageCircle } from "lucide-react"
 import { FeatureCard } from "@/components/feature-card"
+import { MobileSidebar } from "@/components/sidebar-nav"
 
 export default function CommunityPage() {
   return (
     <div className="space-y-8">
+      <MobileSidebar />
       <PageHeader 
         title="Community" 
         description="Join the sunniest and most vibrant community in crypto"

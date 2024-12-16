@@ -1,10 +1,12 @@
 import { PageHeader } from "@/components/page-header"
+import { MobileSidebar } from "@/components/sidebar-nav"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
 export default function AboutPage() {
   return (
     <div className="space-y-8 w-full">
+      <MobileSidebar />
       <PageHeader 
         title="About SunnyShiba" 
         description="Learn about our mission, vision, and the team behind SunnyShiba"

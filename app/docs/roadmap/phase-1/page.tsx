@@ -1,10 +1,12 @@
 import { PageHeader } from "@/components/page-header"
+import { MobileSidebar } from "@/components/sidebar-nav"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { CheckCircle2 } from "lucide-react"
 
 export default function Phase1Page() {
   return (
     <div className="space-y-8">
+      <MobileSidebar />
       <PageHeader 
         title="Phase 1: Launch & Community Building" 
         description="The foundation of SunnyShiba's bright future"

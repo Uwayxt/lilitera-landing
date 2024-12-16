@@ -2,10 +2,12 @@ import { PageHeader } from "@/components/page-header"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Coins, Gift, Sparkles, Target } from "lucide-react"
 import { FeatureCard } from "@/components/feature-card"
+import { MobileSidebar } from "@/components/sidebar-nav"
 
 export default function RewardsPage() {
   return (
     <div className="space-y-8">
+      <MobileSidebar />
       <PageHeader 
         title="Sunny Rewards" 
         description="Earn passive income while holding SUNSHIBA tokens"
